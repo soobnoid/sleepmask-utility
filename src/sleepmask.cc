@@ -267,10 +267,6 @@ class RWXSleepRoutine : SleepRoutine
         }
 };
 
-// THREADPOOL DIRECT INSERTION STUFF
-
-// SIGNED PYTHON/LUA DLL SLEEP (RW-sleep)
-
 // void cleanup(ThreadpoolTimerSleepRoutine* TimerSleep);
 void cleanup(RWXSleepRoutine* RWXSleep);
 
