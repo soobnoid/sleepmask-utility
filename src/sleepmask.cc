@@ -349,7 +349,6 @@ int main ()
 
     // ThreadpoolTimerSleepRoutine* sleepmask = new ThreadpoolTimerSleepRoutine(
     //     (PTP_CALLBACK_ENVIRON) nullptr,
-    //     kbVirtualProtect,
     //     RtlpTpTimerCallback,
     //     ntContinue
     // );
