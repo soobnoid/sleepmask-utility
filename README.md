@@ -6,4 +6,4 @@ The first sleepmask is just a generic threadpool timer based sleepmask. The seco
 
 ## detection 
 
-the code is largely "defanged" and does not hide the sleeping thread's callstack, or the "context pointing to VirtualProtect" IoC that patriot scans for (https://github.com/joe-desimone/patriot). Also the RWX PoC does not load a signed dll and instead just simulates a code cave with VirtualProtect.
+the code is largely "defanged" and does not hide the sleeping thread's callstack, or the "context pointing to VirtualProtect" IoC that patriot scans for (https://github.com/joe-desimone/patriot). Also the RWX PoC does not load a signed dll and instead just simulates a code cave with VirtualProtect. So neither of these will work very well copy-pasted "as is".
