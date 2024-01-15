@@ -312,10 +312,10 @@ int main ()
 
         Img->Length = Img->MaximumLength = ImageSize;
 
-        // systemfunc032 = (uintptr_t) GetProcAddress(
-        //     LoadLibraryA("Advapi32"),  
-        //     "SystemFunction032"
-        // );
+        systemfunc032 = (uintptr_t) GetProcAddress(
+            LoadLibraryA("Advapi32"),  
+            "SystemFunction032"
+        );
 
         // RtlpTpTimerCallback = (uintptr_t) findInModule("Ntdll",
         //     (PBYTE)"\x48\x89\x5c\x24\x08\x48\x89\x74\x24\x18\x57\x48\x83\xec\x40\x48\x8b\xda\x80\x7a\x58\x00\x0f\x84",
