@@ -389,7 +389,7 @@ int main ()
 
 void cleanup(RWXSleepRoutine* RWXSleep)
 {
-    printf("CALLED CLEANUP");
+    printf("CALLED CLEANUP\n");
     delete RWXSleep;
     delete Key;
     delete [16] keybuf;
