@@ -181,7 +181,7 @@ class ThreadpoolTimerSleepRoutine : SleepRoutine
                     continue;
                 }
 
-                if(!CB.a1)
+                else if(!CB.a1)
                 {
                     PTP_TIMER T = CreateThreadpoolTimer(
                         (PTP_TIMER_CALLBACK)CB.Callback,
